@@ -8,7 +8,7 @@ namespace cis237inclass3
 {
     //Make this class abstract.  This way it can not be instanciated on its own, but will provide
     //a good base for the other two types of employees.
-    abstract class Employee
+    abstract class Employee : IEmployee
     {
         //Variables
         protected string _firstName;
